@@ -1,0 +1,127 @@
+
+    
+.btn-a {
+
+   
+    margin-top: 25px;
+    background-color: #39d4a6;
+    padding: 20px;
+    color: azure;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.btn-a:hover{
+    background-color: rgb(168, 244, 197);
+}
+.btn-a1 {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.btn-a2{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+}
+iframe{
+    width: 100%;
+}
+.caja{
+    display: flex;
+    text-align: center;
+    
+
+}
+.caja_info1{
+  display: inline-block;
+  vertical-align: top;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 330px;
+    height: 440px;
+    background-color: orange;
+    padding: 1px;
+    margin-right: 15px;
+   
+}
+
+.clasex{
+    
+    
+  background-color: rgb(16, 16, 197);
+
+}
+
+.titulo_producto {
+  width: 310px;
+    height: 38px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background-color: orangered;
+   margin-bottom: 8px 8px;
+    text-align: center;
+    color: white;
+}
+.imagen_producto{
+  text-align: center;
+}
+.precio_producto{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+body {
+    font-family: arial, sans-serif;
+}
+.agregar {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 10px 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.agregar:hover {
+  background-color: green;
+}
+
+@media screen and (max-width: 360px) { /* Estilos para celular */
+  .caja {
+      grid-template-columns: repeat(1,1fr);
+  }
+}
+
+/* Estilos para tabletas */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .caja {
+      grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+  }
+}
+
+/* Estilos para laptops y pantallas más grandes */
+@media only screen and (min-width: 1024px) {
+  .caja {
+      grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+  }
+}
